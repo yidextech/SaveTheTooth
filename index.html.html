@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Balloon Escape</title>
+  <link rel="stylesheet" href="dental.css">
+</head>
+<body>
+  <section class="new">
+  <!-- HEADER -->
+  <header class="game-header">
+    <div class="logo"><img src="pictures/lor-ascent.png"></div>
+    
+    <h2>Lor-Ascent dental<br>
+       scaling campaign</h2>
+  </header>
+
+  <!-- CONTROLS -->
+  <div class="controls">
+    <label for="difficulty">Difficulty:</label>
+    <input type="range" id="difficulty" min="1" max="3" value="2">
+    <span id="difficulty-label">Medium</span>
+    </section>
+    <h2 id="teeth"> Save the teeth</h2>
+    
+
+  </div>
+<section class="align">
+
+
+  <!-- SCORE -->
+   
+  <div class="score-board">
+    Score: <span id="score">0</span> |
+    High Score: <span id="highScore">0</span>
+  </div>
+<button class="startGame" onclick="startGame()">Start Game</button>
+</section>
+  <!-- GAME AREA -->
+  <div class="game-container">
+    <div id="balloon">
+      <img id="balloon-img" src="pictures/—Pngtree—shiny teeth whitening effect_6844069.png" alt="Teeth Balloon">
+    </div>
+  </div>
+<div class="winn">
+     <h1 >Top scorers</h1>
+     </div>
+     <br>
+     <br>
+     <br>
+<div class="win">
+    <ul>
+   
+      <h4>1. helen</h4>
+      <h4>2. tariku</h4>
+      <h4>3. melat</h4>
+      <h4>4. fatee</h4>
+      <h4>5. milka</h4>
+
+    </ul>
+    
+
+  </div>
+  <div class="info">
+    <h5>Amen-web-solutions <br> phone:0993943934 <br> telegram:@amen890gallery</h4>
+    
+
+  </div>
+  
+  <!-- CURTAIN GAME OVER -->
+  <div id="game-over" class="game-over-curtain" style="display:none;">
+    <div class="game-over-content">
+      <h2>💥 Teeth eaten by bacteria!</h2>
+      <p>Final Score: <span id="final-score">0</span></p>
+      <button class="restart-btn" onclick="restartGame()">Restart Game</button>
+    </div>
+  </div>
+
+  <script src="dental.js"></script>
+</body>
+</html>
